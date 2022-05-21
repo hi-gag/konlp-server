@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from konlpy.tag import Komoran
 from fastapi.middleware.cors import CORSMiddleware
+import os
 
 app = FastAPI()
 
